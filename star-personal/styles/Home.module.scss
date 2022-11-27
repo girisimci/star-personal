@@ -1,3 +1,5 @@
+@import "_mixins.scss";
+
 .container {
   padding: 0 2rem;
 }
@@ -71,6 +73,10 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  @include desktop() {
+    max-width: 100%;
+    flex-direction: column;
+  }
 }
 
 .card {
@@ -83,6 +89,10 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  @include desktop() {
+    max-width: 100%;
+    flex-direction: column;
+  }
 }
 
 .card:hover,
