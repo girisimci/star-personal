@@ -9,8 +9,8 @@ npm run dev
 # or
 yarn dev
 
-# graphql server açmak için yarn graphql-faker --open
-
+# graphql server açmak için 
+yarn graphql-faker --open
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
