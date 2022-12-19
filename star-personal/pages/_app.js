@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import { BaseCSS, GridThemeProvider } from "styled-bootstrap-grid";
 import { ThemeProvider } from "styled-components";
 
+
 const gridTheme = {
   gridColumns: 12, // default 12
   breakpoints: {

@@ -15,9 +15,7 @@ export default function Home() {
         <PersonalCard />
       </main>
 
-      <footer className={styles.footer}>
-       Ayın Personeli Listesi
-      </footer>
+      <footer className={styles.footer}>Ayın Personeli Listesi</footer>
     </div>
   );
 }
