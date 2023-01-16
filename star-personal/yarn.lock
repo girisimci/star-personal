@@ -285,12 +285,12 @@
 
 "@next/swc-darwin-arm64@13.0.4":
   version "13.0.4"
-  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.0.4.tgz#2a471486bd0d5737104f62807b23cb9743e3cb08"
+  resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.0.4.tgz"
   integrity sha512-/lajev+9GSie+rRTl5z8skW9RJwZ+TwMKLzzM24TbDk8lUjqPTyJZ/cU0NDj8J7VQAZ6EehACSh9rcJeBRtLuA==
 
 "@next/swc-darwin-x64@13.0.4":
   version "13.0.4"
-  resolved "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-13.0.4.tgz"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-13.0.4.tgz#f921ea5d09df6bb4fcace3639b9a2e4587212c0e"
   integrity sha512-HK4b2rFiju8d40GTL/jH9U6OQ7BYA2MeEHs7Dm7Rp7kwQtLzP3z6osdQS8er20tIFHDE4b+oVBy03ZUQkHf0Pg==
 
 "@next/swc-freebsd-x64@13.0.4":
@@ -1027,7 +1027,7 @@ fresh@0.5.2:
 
 fs@^0.0.1-security:
   version "0.0.1-security"
-  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+  resolved "https://registry.npmjs.org/fs/-/fs-0.0.1-security.tgz"
   integrity sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==
 
 fsevents@~2.3.2:
@@ -1075,7 +1075,7 @@ good-listener@^1.2.2:
 
 graphql-faker@^2.0.0-rc.25:
   version "2.0.0-rc.25"
-  resolved "https://registry.yarnpkg.com/graphql-faker/-/graphql-faker-2.0.0-rc.25.tgz#74d2cce58b0610deed9a0323e1d147cb8a756702"
+  resolved "https://registry.npmjs.org/graphql-faker/-/graphql-faker-2.0.0-rc.25.tgz"
   integrity sha512-tMSBRA/+aC988v66j95fxP1yzcVIXmc+KutspxrogvNSlMq314NE4omQyuY1FGD+RnOPMvy7p3nYgO30AKfVtA==
   dependencies:
     body-parser "1.19.0"
