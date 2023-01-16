@@ -2,7 +2,7 @@ import Head from "next/head";
 import PersonalCard from "../components/personal-card";
 import styles from "../styles/Home.module.scss";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,9 +13,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <PersonalCard />
+        
+        
       </main>
 
       <footer className={styles.footer}>Ayın Personeli Listesi</footer>
     </div>
   );
 }
+export default Home;

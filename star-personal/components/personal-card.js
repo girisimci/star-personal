@@ -1,36 +1,34 @@
-import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { Col, Row } from "styled-bootstrap-grid";
 import s from "./personal-card.module.scss";
-const PersonalCard = () => {
-  const [people, setPeople] = useState([]);
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos")
-      .then((response) => response.json())
-      .then((json) => setPeople(json));
-  }, []);
+const PersonalCard = ({userData}) => {
+  useEffect(()=>{
+    getServerSideProps()
+  },[])
   return (
     <>
       <Row>
-        {people.map((item, index)=>{
-          return (
-            <Col key={index} md={4}>
+         <Col md={4}>
               <div className={s.box}>
-                <span className={s.boxName}>{item.title}</span>
-                <div style={{ width: "100px", height: "40px" }}>
-                 { /*<Image
-                    width={100}
-                    height={100}
-                    alt="My Image"
-                    src={}
-                  />*/}
-                </div>
+              <span>ad:{userData?.name}</span>
+        <span>email:{userData?.email}</span>
+        <span>adress:{userData?.address?.street}</span>
               </div>
             </Col>
-          );
-        })}
       </Row>
     </>
   );
 };
 export default PersonalCard;
+
+
+export const getServerSideProps = async (context)=>{
+  const res =  await fetch("https://jsonplaceholder.typicode.com/users");
+  const userData = await res.json();
+  console.log('kirve: ',context);
+  return{
+    props:{
+      userData
+    }
+  }
+}
