@@ -1,6 +1,7 @@
 import Head from "next/head";
-import PersonalCard from "../components/personal-card";
 import styles from "../styles/Home.module.scss";
+import User from "./user";
+import UserItem from "./user/[id]";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       </Head>
 
       <main className={styles.main}>
-        <PersonalCard />
+        <User />
         
         
       </main>
